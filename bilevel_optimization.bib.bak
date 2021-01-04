@@ -1,0 +1,45 @@
+% Encoding: UTF-8
+
+@Book{Bard1998_practicalBO,
+  author    = {Jonathan F. Bard},
+  publisher = {Springer},
+  title     = {Practical Bilevel Optimization},
+  year      = {1998},
+}
+
+@Article{Preuss2017,
+  author  = {Simon Wessing and Mike Preuss},
+  title   = {The True Destination of EGO is Multi-localOptimization},
+  year    = {2017},
+  comment = {While EGO is conceptually elegant and
+its convergence rate to the global optimum can be analyzed mathematically [3], there are
+multiple experimental results that indicate a preference for a more greedy infill criterion
+in expensive global optimization.},
+}
+
+@Article{Bull2011,
+  author  = {Adam D. Bull},
+  journal = {Journal of machine learning research},
+  title   = {Convergence rates of efficient global optimization algorithms.},
+  year    = {2011},
+  number  = {12},
+  pages   = {:2879–2904},
+}
+
+@Article{WeightedEGO2005,
+  author  = {Andras Sobester and Stephen J. Leary and Andy J. Keane},
+  journal = {Journal of Global Optimization},
+  title   = {On the design of optimization strategies based on global reponse surface approximation models},
+  year    = {2005},
+  comment = {propose a weighted
+expected improvement, which can be adjusted to search more locally or globally, depending on the weights. S},
+}
+
+@InProceedings{Rehbach2020,
+  author    = {Frederik Rehbach and Martin Zaefferer and Boris Naujoks and Thomas Bartz-Beielstein},
+  booktitle = {In proceedings GEEO 2020},
+  title     = {Expected Improvement versus Predicted Value inSurrogate-Based Optimization},
+  year      = {2020},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
