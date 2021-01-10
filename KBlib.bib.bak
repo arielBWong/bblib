@@ -149,14 +149,57 @@
   volume  = {38},
 }
 
-@Article{regis2013evolutionary,
+@Article{regis2014evolutionary,
   author  = {Rommel G Regis},
   journal = {IEEE Transactions on Evolutionary Computation},
   title   = {Evolutionary programming for high-dimensional constrained expensive black-box optimization using radial basis functions},
-  year    = {2013},
+  year    = {2014},
   number  = {3},
   pages   = {326--347},
   volume  = {18},
+}
+
+@Article{Nunez2018,
+  author  = {Luigi Nuñez and Rommel G. Regis and Kayla Varela},
+  journal = {Journal of Computational and Applied Mathematics},
+  title   = {Accelerated random search for constrained global optimization assisted by radial basis function surrogates},
+  year    = {2018},
+  pages   = {276-295},
+  volume  = {340},
+}
+
+@Article{Regis2011,
+  author  = {Rommel G. Regis},
+  journal = {Computers & Operations Research},
+  title   = {Stochastic radial basis function algorithms for large scale optimization involving expensive black-box objective and constraint function},
+  year    = {2011},
+  number  = {5},
+  pages   = {837-853},
+  volume  = {38},
+}
+
+@Article{,
+  number = {5},
+  pages  = {681-696},
+  volume = {21},
+}
+
+@Article{Islam2017,
+  author  = {Md Monjurul Islam and Hemant Kumar Singh and Tapabrata Ray},
+  journal = {IEEE trans. on evolutionary computation},
+  title   = {A surrogate assisted approach for single objective bilevel optimization},
+  year    = {2017},
+  number  = {5},
+  pages   = {681-696},
+  volume  = {21},
+}
+
+@InProceedings{islam2018efficient,
+  author    = {Md Monjurul Islam and Hemant Kumar Singh and Tapabrata Ray},
+  booktitle = {2018 IEEE Congress on Evolutionary Computation (CEC)},
+  title     = {Efficient global optimization for solving computationally expensive bilevel optimization problems},
+  year      = {2018},
+  pages     = {1-8},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
