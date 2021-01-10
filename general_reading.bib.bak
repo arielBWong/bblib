@@ -24,6 +24,8 @@ Using a large offspring population in many cases can decrease the number of gene
   number  = {6},
   pages   = {1025-1034},
   volume  = {24},
+  comment = {good sentences
+For an EDA to succeed in optimization, it is important that its model is changed over time in a way that better solutions are sampled more frequently. However, due to the randomness in sampling, the model should not be changed too drastically in a single iteration in order to prevent wrong updates from having a long-lasting impact.},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

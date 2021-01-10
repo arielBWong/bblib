@@ -178,12 +178,6 @@
   volume  = {38},
 }
 
-@Article{,
-  number = {5},
-  pages  = {681-696},
-  volume = {21},
-}
-
 @Article{Islam2017,
   author  = {Md Monjurul Islam and Hemant Kumar Singh and Tapabrata Ray},
   journal = {IEEE trans. on evolutionary computation},
@@ -200,6 +194,53 @@
   title     = {Efficient global optimization for solving computationally expensive bilevel optimization problems},
   year      = {2018},
   pages     = {1-8},
+}
+
+@InBook{Ginsbourger2010,
+  author    = {David Ginsbourger and Rodolphe Le Riche and Laurent Carraro},
+  editor    = {Yoel Tenne and Chi-Keong Goh},
+  pages     = {131--162},
+  publisher = {Springer Berlin Heidelberg},
+  title     = {Kriging Is Well-Suited to Parallelize Optimization},
+  year      = {2010},
+}
+
+@Article{Rosenbrock1960,
+  author  = {H. H. Rosenbrock},
+  journal = {The computer journal},
+  title   = {An automatic method for finding the greatest or least value of a function},
+  year    = {1960},
+  number  = {3},
+  pages   = {175-184},
+  volume  = {3},
+}
+
+@InCollection{zakharov,
+  publisher = {https://www.sfu.ca/~ssurjano/zakharov.html},
+  title     = {Zakharov function},
+}
+
+@Article{laguna2005experimental,
+  author  = {Manuel Laguna and Rafael Mart{\'\i}},
+  journal = {Journal of Global Optimization},
+  title   = {Experimental testing of advanced scatter search designs for global optimization of multimodal functions},
+  year    = {2005},
+  number  = {2},
+  pages   = {235-255},
+  volume  = {33},
+}
+
+@Article{molga2005test,
+  author = {Marcin Molga and Czes{\l}aw Smutnicki},
+  title  = {Test functions for optimization needs},
+  year   = {2005},
+}
+
+@Article{Surjanovic,
+  author  = {Sonja Surjanovic and Derek Bingham},
+  journal = {Retrieved January 11, 2021, from \url{http://www.sfu.ca/~ssurjano}},
+  title   = {Virtual Library of Simulation Experiments: Test Functions and Datasets},
+  year    = {2013},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
