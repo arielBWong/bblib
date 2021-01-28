@@ -28,4 +28,50 @@ Using a large offspring population in many cases can decrease the number of gene
 For an EDA to succeed in optimization, it is important that its model is changed over time in a way that better solutions are sampled more frequently. However, due to the randomness in sampling, the model should not be changed too drastically in a single iteration in order to prevent wrong updates from having a long-lasting impact.},
 }
 
+@Article{Zhandawei2020,
+  author  = {Dawei Zhan and Huanlai Xing},
+  journal = {Journal of global optimization},
+  title   = {Expected improvement for expensive optimization: a review},
+  year    = {2020},
+  pages   = {507-544},
+  volume  = {78},
+}
+
+@Article{,
+}
+
+@Article{Zhangjun2021,
+  author  = {ShengHao Wu and ZhiHui Zhan and Jun Zhang},
+  journal = {IEEE transaction on Evolutionary Algorithm},
+  title   = {SAFE: Scale-Adaptive Fitness Evaluation Methodfor Expensive Optimization Problems},
+  year    = {2021},
+  comment = {Key problem:
+no matter the data-driven methods or the knowledge-driven methods, they
+more or less make the replaced/simplified cheaper fitness function somehow different from the original objective function of the real-world problem (Surrogate is not the same as real function). This will unavoidably bring in model error which is harmful to practical applications.
+
+this paper proposes a scale-adaptive FE (SAFE)
+method to enable the EC algorithm to efficiently solve the EOP
+DIRECTLY ON the original objective function
+
+SAFE method is proposed to drive EC
+algorithms to efficiently deal with the ORIGINAL expensive fitness
+
+By using SAFE, the fitness function can be the same as or with no significant different with the original objective function, but the fitness value of the
+solution can be evaluated in different accuracy scales by different EMs in different evolutionary stages to reduce the computational cost
+function},
+}
+
+@Manual{han2008matlab,
+  title  = {MATLAB parametric empirical Kriging (MPErK) user’s guide},
+  author = {Han, Gang and Santner, Thomas J},
+}
+
+@InProceedings{bagheri2017constraint,
+  author    = {Samineh Bagheri and Wolfgang Konen and Richard Allmendinger, and J{\"u}rgen Branke and Kalyanmoy Deb and Jonathan Fieldsend and Domenico Quagliarella and Karthik Sindhya},
+  booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+  title     = {Constraint handling in efficient global optimization},
+  year      = {2017},
+  pages     = {673-680},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
